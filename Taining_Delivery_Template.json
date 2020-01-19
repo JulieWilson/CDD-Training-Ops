@@ -87,17 +87,8 @@
 			],
 			"isDisabled": false,
 			"name": "Run Deployment",
-			"kind": "Task",
-			"endpoint": "ra",
-			"plugin": "Release Automation/5.5.2",
-			"parameters": {
-				"environment": "UAT",
-				"application": "Application name",
-				"deploymentPlan": "Deployment Plan Name",
-				"build": "%buildNumber%",
-				"project": "Project Name"
-			},
-			"type": "Run Deployment"
+			"kind": "Task"
+			
 		},
 		{
 			"phase": "Taining Delivery/${ReleaseVersion}/UAT",
