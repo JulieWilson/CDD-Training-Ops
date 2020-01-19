@@ -72,7 +72,7 @@
 			"name": "Run Jenkins Build",
 			"kind": "Task",
 			"endpoint": "Jenkins",
-			"plugin": "Jenkins/1.0.3",
+			"plugin": "Jenkins/1.2.0",
 			"parameters": {
 				"project name": "%JenkinsProjectName%",
 				"taskExpirationTime": "43200",
