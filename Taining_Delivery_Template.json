@@ -124,17 +124,7 @@
 			"phase": "Taining Delivery/${ReleaseVersion}/SIT",
 			"isDisabled": false,
 			"name": "Run Deployment",
-			"kind": "Task",
-			"endpoint": "ra",
-			"plugin": "Release Automation/5.5.2",
-			"parameters": {
-				"environment": "SIT",
-				"application": "Appp1",
-				"deploymentPlan": "Plan1",
-				"build": "%Training App.last_successful_change%",
-				"project": "Proj1"
-			},
-			"type": "Run Deployment"
+			"kind": "Task"
 		},
 		{
 			"phase": "Taining Delivery/${ReleaseVersion}/SIT",
@@ -170,17 +160,7 @@
 			"phase": "Taining Delivery/${ReleaseVersion}/Production",
 			"isDisabled": false,
 			"name": "Run Deployment",
-			"kind": "Task",
-			"endpoint": "ra",
-			"plugin": "Release Automation/5.5.2",
-			"parameters": {
-				"environment": "SIT",
-				"application": "Appp1",
-				"deploymentPlan": "Plan1",
-				"build": "%Training App.last_successful_change%",
-				"project": "Proj1"
-			},
-			"type": "Run Deployment"
+			"kind": "Task"
 		},
 		{
 			"phase": "Taining Delivery/${ReleaseVersion}/Production",
